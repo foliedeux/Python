@@ -1,0 +1,6 @@
+a = int(input("Enter side 1: "))
+b = int(input("Enter side 2: "))
+deg = int(input("Enter angle(in degrees): "))
+vat = int(b/100*a)
+print("VAT amount is",vat)
+print("Difference between outlet and online store ",a-vat)
